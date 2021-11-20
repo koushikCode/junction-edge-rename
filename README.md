@@ -6,8 +6,8 @@ The Map (***map.osm file***) is downloaded from Open Street Map and is then conv
 Execute the file ***index.py*** to obtain the desired result. The final output sumo network file is ***saltlake_final.net.xml***.
 
 The Junction ids in the ***saltlake.net.xml*** file (NET file) are renamed as “a_id-number” and internal
-junction ids as “b_<id-number>” using the python script ***junction-id-modification.py***. 
-After the Junction ids are renamed, the Edge ids are renamed as “from-junction id_to junction-id” 
+junction ids as “b_id-number” using the python script ***junction-id-modification.py***. 
+After the Junction ids are renamed, the Edge ids are renamed as “fromJunction-id_toJunction-id” 
 and internal edge ids as ie_id-number using the python scrips ***edge-id-modification***.
 
 Make sure SUMO is installed.
